@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 
 app.get('/', (req, res) => {
   // 2. Send the response to the browser
-  res.send('welcome everbody');
+  res.send('welcome everbody how\'s everybody');
 });
 
 app.listen(PORT, () => {
