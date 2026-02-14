@@ -4,7 +4,6 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "module",
   "main": "server.ts",
   "scripts": {
     "dev": "nodemon --exec ts-node -r dotenv/config server.ts",
@@ -21,6 +20,7 @@
   },
   "dependencies": {
     "dotenv": "^17.3.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
   }
 }

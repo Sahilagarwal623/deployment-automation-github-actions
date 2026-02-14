@@ -4,23 +4,22 @@
     // File Layout
     "rootDir": "./",
     "outDir": "./dist",
-
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "commonjs",
     "target": "ES2020",
-
+    "moduleResolution": "node",
     // For nodejs:
-    "lib": ["ES2020"],
-    "types": ["node"],
-  
-
+    "lib": [
+      "ES2020"
+    ],
+    "types": [
+      "node"
+    ],
     "strict": true,
     "skipLibCheck": true,
-
     "esModuleInterop": true,
     "resolveJsonModule": true,
-
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true
   }
